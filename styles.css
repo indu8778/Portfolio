@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F8D6FA ;
+    color: #333;
+}
+
+header {
+    background-color:#F8D6FA ;
+    color: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Algerian';
+    src: url('path/to/your/fonts/Algerian.ttf') format('truetype');
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Algerian',  sans-serif;
+}
+
+header p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+section {
+    text-align: center;
+    padding: 10px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #9E72C3 ;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+section#about {
+    text-align: center; 
+}
+
+section#about img {
+    max-width: 300px;
+    display: inline-block; 
+}
+
+
+section p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center;   
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+a {
+    text-align: center;
+    color: Black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+#contact p:first-child {
+    margin-top: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    header p {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    section h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
